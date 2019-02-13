@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gate>
+    <id value = "1" />
+
+    <!--waiting for client incoming-->
+    <gateserver ip = "0.0.0.0"
+                port = "9099" />
+
+    <auth   ip = "127.0.0.1"
+            port = "8081" />
+
+    <logic  ip = "127.0.0.1"
+            port = "7071" />
+</gate>
